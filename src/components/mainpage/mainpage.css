@@ -1,0 +1,63 @@
+.myImage img{
+    border-radius: 100px;
+    width: 500px;
+    padding: 50px;
+}
+/* .description{
+    font-size: 50px;
+} */
+.full{
+    display: flex;
+}
+.myImage{
+    flex: 1;
+}
+.description{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.description-wrapper{
+    padding: 50px;
+    height: 50%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.desc-hello{
+    font-size: 30px;
+    font-weight: 300;
+}
+.desc-name{
+    font-size: 60px;
+}
+.desc-title{
+    height: 50px;
+    overflow: hidden;
+}
+.desc-title-wrapper{
+    height: 100%;
+    animation: move 4s ease-in-out infinite alternate;
+}
+@keyframes move {
+    50%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(-50px);
+    }
+}
+.desc-title-item{
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #5cf054;
+    
+    display: flex;
+    text-align: center;
+}
+.desc2{
+    margin-top: 50px;
+}
