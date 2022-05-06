@@ -3,12 +3,7 @@
     width: 500px;
     padding: 50px;
 }
-/* .description{
-    font-size: 50px;
-} */
-.full{
-    display: flex;
-}
+
 .myImage{
     flex: 1;
 }

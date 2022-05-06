@@ -41,13 +41,13 @@ function Mainpage() {
 
       <Container>
         <Row>
-        <div className="full">
-        <Col>
+        
+        <Col xs={12} sm={12} md={12} lg={6}>
           <div className="myImage">
             <img src={image2} />
           </div>
         </Col>
-        <Col>
+        <Col xs={12} sm={12} md={12} lg={6}>
         <div className="description">
           <div className="description-wrapper">
             <h2 className="desc-hello">
@@ -67,7 +67,7 @@ function Mainpage() {
         
         </div>
         </Col>
-        </div>
+        
         </Row>
       </Container>
       
